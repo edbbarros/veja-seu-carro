@@ -326,14 +326,15 @@ const Home = () => {
         <h1 className='font-bold text-white text-2xl lg:text-4xl '>Veja o que estäo falando da gente</h1>
       </section>
 
-      <section className='grid grid-cols-3 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4 my-10' >
+      <section className='lg:grid lg:grid-cols-3 text-center flex flex-col justify-items-center mx-5 gap-5 lg:mx-5 my-10' >
 
-        <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow text-center ">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
-            <img className='w-full lg:mb-3' src={person1} alt="" />
+            <img className='lg:mb-3
+            ' src={person1} alt="" />
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5">Eu nunca tive problemas com meu rastreador! O serviço que a Veja seu carro entrega, é sensacional! Parabéns ❤️
             </h5>
-            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Camila Rabeche</p>
+            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Marilia Gonzaga</p>
 
             <div class="flex justify-center items-center mt-5 mb-5 w-full  ">
               <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -347,12 +348,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="w-full  max-w-xs bg-white border border-gray-200 rounded-lg shadow text-center ">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
             <img className='w-full lg:mb-10' src={person2} alt="" />
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5 ">Empresa Top, rastreamento de veículos de confiança e de primeira qualidade. Satisfeita com o serviço.👏🏻👏🏻👏🏻
             </h5>
-            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Patrícia Tavares</p>
+            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Ana Queiroz</p>
 
             <div class="flex justify-center items-center mt-5 mb-5 w-full  ">
               <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -366,12 +367,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow text-center ">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
             <img className='w-full lg:mb-10' src={person3} alt="" />
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5 ">Empresa nota 1000,  atendimento excelente e prestação de serviço ótima! Recomendo de olhos fechados!
             </h5>
-            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Gabriel Torres</p>
+            <p class="text-sm font-semibold tracking-tight text-gray-900 ">Pedro Santos</p>
 
             <div class="flex justify-center items-center mt-5 mb-5 w-full  ">
               <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>

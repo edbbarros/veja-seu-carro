@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav class="bg-white">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <a href="/">
-          <img src={Logo} class="h-14  my-5 mr-3" alt="Logo" />
+          <img src={Logo} class="h-14 my-5 mx-5" alt="Logo" />
         </a>
         <div class="flex md:order-2">
           <button onClick={toggleCollapse} aria-expanded={isExpanded} data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-cta">
