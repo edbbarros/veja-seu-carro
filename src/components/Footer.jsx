@@ -1,3 +1,4 @@
+import logoVsc from '../assets/Logo-Vsc.png'
 
 const Footer = () => {
   return (
@@ -6,73 +7,65 @@ const Footer = () => {
       <div class="mx-auto w-full max-w-screen-xl">
         <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Company</h2>
+            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Contato</h2>
             <ul class="text-gray-500 font-medium">
               <li class="mb-4">
-                <a href="#" class=" hover:underline">About</a>
+                Executive Plaza - R. Mal. Deodoro, 300 - Torreão, Encruzilhada, Recife - PE, 52030-172
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Careers</a>
+                (81)98865-6767 | 0800 081 3312
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Brand Center</a>
+                email@email.com
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Blog</a>
+                CNPJ:00.000.000/0000-00
               </li>
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Help center</h2>
+            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Home</h2>
             <ul class="text-gray-500 font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">Discord Server</a>
+                Vantagens
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Twitter</a>
+                Valores
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Facebook</a>
+                Depoimentos
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">Contact Us</a>
+                Contatos
+              </li>
+              <li class="mb-4">
+                Agendar demonstração
+              </li>
+              <li class="mb-4">
+                Acessar Plataforma
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Aplicativo</h2>
+            <ul class="text-gray-500 font-medium">
+
+              <li class="mb-4">
+                Baixe o Aplicativo - Android
+              </li>
+              <li class="mb-4">
+                Baixe o Aplicativo - IOS
               </li>
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Legal</h2>
-            <ul class="text-gray-500 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Licensing</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-              </li>
-            </ul>
+            <img src={logoVsc} alt="" />
           </div>
-          <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Download</h2>
-            <ul class="text-gray-500 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">iOS</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Android</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Windows</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">MacOS</a>
-              </li>
-            </ul>
-          </div>
+
         </div>
         <div class="px-4 py-6 bg-orange-500  md:flex md:items-center md:justify-between">
-          <span class="text-sm text-white sm:text-center">© 2023 <a href="">Agencia Pumadi</a>. Todos os direitos reservados.
+          <span class="text-sm text-white sm:text-center">© 2023 <a href="https://www.instagram.com/agenciapumadi/">Agencia Pumadi</a>. Todos os direitos reservados.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-900 ">

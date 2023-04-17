@@ -1,28 +1,14 @@
+
+
 const Form = () => {
   return (
     <>
-      <section class="bg-orange-500 mt-5 mb-5" style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center"
-      }}>
-        <h1 style={{
-          color: "white",
-          fontSize: '2.5rem',
-        }}> Agende uma demonstração ou bate-papo on-line </h1>
-        <p
-          style={{
-            color: "white",
-            fontSize: '1.2rem',
-          }}> Preencha o formulário e em seguida escolha o horário </p>
+      <section class="bg-[#112e49] flex flex-col items-center my-5 py-2 px-3">
+        <h1 class="text-white text-2xl lg:text-4xl font-bold my-3"> Agende uma demonstração ou bate-papo on-line </h1>
+        <p class="text-white text-lg"> Preencha o formulário e em seguida aguarde que em breve entraremos em contato.  </p>
       </section >
 
-      <section style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-
-      }}>
+      <section className="flex flex-col items-center">
 
         <form action="" class="w-full max-w-2xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
 
@@ -44,6 +30,11 @@ const Form = () => {
           <div class="mb-6">
             <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Nome da empresa *</label>
             <input type="text" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Nome da empresa" />
+          </div>
+
+          <div class="mb-6">
+            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Numero de veiculos *</label>
+            <input type="text" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Numero de veiculos" />
           </div>
 
           <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Como podemos lhe ajudar? *</label>
