@@ -30,16 +30,35 @@ const Home = () => {
     setActiveItemId(prevActiveItemId => prevActiveItemId === itemId ? null : prevActiveItemId);
   };
 
-
-
   return (
     <>
-      <section className='bg-mobile bg-desktop flex flex-col items-center justify-center lg:items-start'>
-        <h1 class='text-white font-bold text-4xl lg:text-7xl  mb-10 mx-5 lg:my-20 lg:mx-20 lg:w-[38rem]'> Seu Patrimonio protegido <span className='text-[#f2910e]'>24h</span> por dia!
+      <section className='bg-mobile bg-desktop flex flex-col items-center justify-start lg:items-start '>
+        <h1 class='text-white font-bold text-4xl lg:text-7xl mt-10  mb-10 mx-5 lg:my-20 lg:mx-20 lg:w-[38rem] animate-left-to-center'> Seu Patrimonio protegido <span className='text-[#f2910e]'>24h</span> por dia!
         </h1>
 
         <button type="button" class="text-white bg-[#f2910e] font-medium rounded-lg text-2xl py-3 inline-flex justify-center w-3/4 lg:h-[4rem] lg:w-[33rem] text-center mx-20">Eu quero</button>
       </section >
+
+      <section class='DadosCTA'>
+        <div class="border-t border-gray-200 justify-items-center my-2">
+          <div class=" p-4 bg-orange-500 rounded-lg md:p-8 ">
+            <dl class="grid grid-cols-3 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4 ">
+              <div class="flex flex-col items-center justify-center">
+                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-1"></dt>
+                <dd class="text-white ">de redução de combustível logo no primeiro mês de uso da nossa plataforma.</dd>
+              </div>
+              <div class="flex flex-col items-center justify-center">
+                <dt class="mb-2 text-5xl  lg:text-7xl font-extrabold contador contador-2 "></dt>
+                <dd class="text-white ">de aumento na produtividade dos colaboradores da sua empresa</dd>
+              </div>
+              <div class="flex flex-col items-center justify-center">
+                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-3"></dt>
+                <dd class="text-white ">de redução em quilômetros percorridos pela sua frota</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
 
       <section id='vantagens' className='flex flex-col text-center items-center my-10 mx-5'>
         <h1 class="text-orange-500 font-bold text-2xl">Com o que podemos te ajudar hoje?</h1>
@@ -129,27 +148,6 @@ const Home = () => {
           </div>
         </div>
       </section >
-
-      <section class='DadosCTA'>
-        <div class="border-t border-gray-200 justify-items-center my-2">
-          <div class=" p-4 bg-orange-500 rounded-lg md:p-8 ">
-            <dl class="grid grid-cols-3 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4 ">
-              <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-1"></dt>
-                <dd class="text-white ">de redução de combustível logo no primeiro mês de uso do Quatenus</dd>
-              </div>
-              <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl  lg:text-7xl font-extrabold contador contador-2 "></dt>
-                <dd class="text-white ">de aumento na produtividade dos colaboradores da sua empresa</dd>
-              </div>
-              <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-3"></dt>
-                <dd class="text-white ">de redução em quilômetros percorridos pela sua frota</dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-      </section>
 
       <section className=" bg-[#112e49] flex justify-evenly items-center h-screen  flex-col lg:flex-row" id='valores'>
         <div className='mx-2'>

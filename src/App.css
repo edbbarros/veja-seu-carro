@@ -5,17 +5,17 @@
   height: 100vh;
 }
 
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   .bg-mobile {
     background-image: url("./assets/Background-Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-} */
+}
 
 .contador::after {
   content: "0%";
-  animation: contador 5s linear forwards;
+  animation: contador 3s linear forwards;
   animation-fill-mode: forwards;
 }
 

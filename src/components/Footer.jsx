@@ -2,6 +2,8 @@ import logoVsc from '../assets/Logo-Vsc.png'
 import playStore from '../assets/playstore.png'
 import appstore from '../assets/AppStore.svg'
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
 
@@ -15,13 +17,13 @@ const Footer = () => {
                 Executive Plaza - R. Mal. Deodoro, 300 - Torreão, Encruzilhada, Recife - PE, 52030-172
               </li>
               <li class="mb-4">
-                (81)98865-6767 | 0800 081 3312
+                0800 081 3312
               </li>
               <li class="mb-4">
-                email@email.com
+                contatovejaseucarro@gmail.com
               </li>
               <li class="mb-4">
-                CNPJ:00.000.000/0000-00
+                CNPJ:32.520.797/0001-44
               </li>
             </ul>
           </div>
@@ -29,22 +31,22 @@ const Footer = () => {
             <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Home</h2>
             <ul class="text-gray-500 font-medium">
               <li class="mb-4">
-                Vantagens
+                <a href="#vantagens" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Vantagens </a>
               </li>
               <li class="mb-4">
-                Valores
+                <a href="#valores" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500">Valores</a>
               </li>
               <li class="mb-4">
-                Depoimentos
+                <a href="#depoimentos" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500">Depoimentos</a>
               </li>
               <li class="mb-4">
-                Contatos
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</a>
               </li>
               <li class="mb-4">
-                Agendar demonstração
+                <Link to='/form' class="block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Agendar demonstração</Link>
               </li>
               <li class="mb-4">
-                Acessar Plataforma
+                <a href="https://www.protrack365.com/mobile/" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
               </li>
             </ul>
           </div>
@@ -57,13 +59,13 @@ const Footer = () => {
                 <div className='mb-3'>
                   <a href=""><img className='w-52' src={playStore} alt="Logo Playstore" /></a>
                 </div>
-                Baixe o Aplicativo - Android
+
               </li>
               <li>
                 <div className='mb-3'>
                   <a href=""><img className='w-52' src={appstore} alt="Logo App Store" /></a>
                 </div>
-                Baixe o Aplicativo - IOS
+
               </li>
             </ul>
           </div>
@@ -73,7 +75,7 @@ const Footer = () => {
 
         </div>
         <div class="px-4 py-6 bg-orange-500  md:flex md:items-center md:justify-between">
-          <span class="text-sm text-white sm:text-center">© 2023 <a href="https://www.instagram.com/agenciapumadi/">Agencia Pumadi</a>. Todos os direitos reservados.
+          <span class="text-sm text-white sm:text-center">© 2023 <a href="https://www.instagram.com/agenciapumadi/">Agencia Pumadi</a> - Todos os direitos reservados.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-900 ">

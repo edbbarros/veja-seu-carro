@@ -10,7 +10,7 @@ const Form = () => {
 
       <section className="flex flex-col items-center">
 
-        <form action="https://formsubmit.co/95021e4811bfd501aab8aa28a402c031" method="POST" class="w-full max-w-2xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
+        <form action="https://formsubmit.co/contatovejaseucarro@gmail.com" method="POST" class="w-full max-w-2xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
 
           <div class="mb-6">
             <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Nome Completo</label>
