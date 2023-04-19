@@ -1,4 +1,6 @@
 import logoVsc from '../assets/Logo-Vsc.png'
+import playStore from '../assets/playstore.png'
+import appstore from '../assets/AppStore.svg'
 
 const Footer = () => {
   return (
@@ -51,10 +53,16 @@ const Footer = () => {
             <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Aplicativo</h2>
             <ul class="text-gray-500 font-medium">
 
-              <li class="mb-4">
+              <li class="flex flex-col mb-4">
+                <div className='mb-3'>
+                  <a href=""><img className='w-52' src={playStore} alt="Logo Playstore" /></a>
+                </div>
                 Baixe o Aplicativo - Android
               </li>
-              <li class="mb-4">
+              <li>
+                <div className='mb-3'>
+                  <a href=""><img className='w-52' src={appstore} alt="Logo App Store" /></a>
+                </div>
                 Baixe o Aplicativo - IOS
               </li>
             </ul>

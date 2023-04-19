@@ -5,10 +5,72 @@
   height: 100vh;
 }
 
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
   .bg-mobile {
     background-image: url("./assets/Background-Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
+} */
+
+.contador::after {
+  content: "0%";
+  animation: contador 5s linear forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contador {
+  0% {
+    content: "0%";
+    counter-increment: contador-1;
+  }
+  5% {
+    content: "5%";
+  }
+  10% {
+    content: "10%";
+  }
+  15% {
+    content: "15%";
+  }
+  20% {
+    content: "20%";
+  }
+  25% {
+    content: "25%";
+  }
+  30% {
+    content: "32%";
+    counter-increment: contador-1;
+  }
+  35% {
+    content: "35%";
+    counter-increment: contador-2;
+  }
+  40% {
+    content: "37%";
+    counter-increment: contador-2;
+  }
+  41% {
+    content: "41%";
+  }
+  42% {
+    content: "44%";
+    counter-increment: contador-3;
+  }
+}
+
+.contador-1::after {
+  content: "32%";
+  animation-delay: 0.5s;
+}
+
+.contador-2::after {
+  content: "37%";
+  animation-delay: 1s;
+}
+
+.contador-3::after {
+  content: "44%";
+  animation-delay: 1.5s;
 }
