@@ -40,7 +40,7 @@ const Footer = () => {
                 <a href="#depoimentos" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500">Depoimentos</a>
               </li>
               <li class="mb-4">
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</a>
+                <Link to={`https://wa.me/55${8000813312}?text=Adorei%20seu%20artigo`} href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</Link>
               </li>
               <li class="mb-4">
                 <Link to='/form' class="block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Agendar demonstração</Link>
@@ -57,13 +57,14 @@ const Footer = () => {
 
               <li class="flex flex-col mb-4">
                 <div className='mb-3'>
-                  <a href=""><img className='w-52' src={playStore} alt="Logo Playstore" /></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.itrybrand.tracker"><img className='w-52' src={playStore} alt="Logo Playstore" /></a>
                 </div>
 
               </li>
               <li>
+
                 <div className='mb-3'>
-                  <a href=""><img className='w-52' src={appstore} alt="Logo App Store" /></a>
+                  <a href="https://apps.apple.com/br/app/protrack-gps/id974137774"><img className='w-52' src={appstore} alt="Logo App Store" /></a>
                 </div>
 
               </li>

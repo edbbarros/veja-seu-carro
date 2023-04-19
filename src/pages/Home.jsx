@@ -44,18 +44,19 @@ const Home = () => {
           <div class=" p-4 bg-orange-500 rounded-lg md:p-8 ">
             <dl class="grid grid-cols-3 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4 ">
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-1"></dt>
+                <dt class="mb-2 text-7xl font-extrabold contador contador-1"></dt>
                 <dd class="text-white ">de redução de combustível logo no primeiro mês de uso da nossa plataforma.</dd>
               </div>
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl  lg:text-7xl font-extrabold contador contador-2 "></dt>
+                <dt class="mb-2 text-7xl  font-extrabold contador contador-2 "></dt>
                 <dd class="text-white ">de aumento na produtividade dos colaboradores da sua empresa</dd>
               </div>
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-5xl lg:text-7xl font-extrabold contador contador-3"></dt>
+                <dt class="mb-2 text-7xl font-extrabold contador contador-3"></dt>
                 <dd class="text-white ">de redução em quilômetros percorridos pela sua frota</dd>
               </div>
             </dl>
+            <p className='text-white text-xs text-center'>*Números aproximados, baseado em relatórios de nossos clientes.</p>
           </div>
         </div>
       </section>

@@ -15,7 +15,7 @@
 
 .contador::after {
   content: "0%";
-  animation: contador 3s linear forwards;
+  animation: contador 8s linear forwards;
   animation-fill-mode: forwards;
 }
 
@@ -62,15 +62,15 @@
 
 .contador-1::after {
   content: "32%";
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 
 .contador-2::after {
   content: "37%";
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 
 .contador-3::after {
   content: "44%";
-  animation-delay: 1.5s;
+  animation-delay: 0.8s;
 }
