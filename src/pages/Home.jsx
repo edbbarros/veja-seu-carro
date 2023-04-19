@@ -41,7 +41,7 @@ const Home = () => {
         <button type="button" class="text-white bg-[#f2910e] font-medium rounded-lg text-2xl py-3 inline-flex justify-center w-3/4 lg:h-[4rem] lg:w-[33rem] text-center mx-20">Eu quero</button>
       </section >
 
-      <section className='flex flex-col text-center items-center my-10 mx-5'>
+      <section id='vantagens' className='flex flex-col text-center items-center my-10 mx-5'>
         <h1 class="text-orange-500 font-bold text-2xl">Com o que podemos te ajudar hoje?</h1>
       </section>
 
@@ -151,7 +151,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className=" bg-[#112e49] flex justify-evenly items-center h-screen  flex-col lg:flex-row">
+      <section className=" bg-[#112e49] flex justify-evenly items-center h-screen  flex-col lg:flex-row" id='valores'>
         <div className='mx-2'>
 
           <h1 className='text-3xl lg:text-4xl font-bold   max-w-2xl text-orange-500 my-5'>Descomplique a sua gestão</h1>
@@ -364,7 +364,7 @@ const Home = () => {
 
       </section>
 
-      <section className='my-10 flex flex-col items-center h-20 justify-center  bg-[#f2910e]'>
+      <section id='depoimentos' className='my-10 flex flex-col items-center h-20 justify-center  bg-[#f2910e]'>
         <h1 className='font-bold text-white text-2xl lg:text-4xl '>Veja o que estão falando da gente</h1>
       </section>
 
