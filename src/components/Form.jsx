@@ -4,8 +4,8 @@ const Form = () => {
   return (
     <>
       <section class="bg-[#112e49] flex flex-col items-center my-5 py-2 px-3">
-        <h1 class="text-white text-2xl lg:text-4xl font-bold my-3"> Agende uma demonstração</h1>
-        <p class="text-white text-lg"> Preencha o formulário e em seguida aguarde que em breve entraremos em contato.  </p>
+        <h1 class="text-white text-[1.7rem] lg:text-7xl font-bold my-3"> Agende uma demonstração</h1>
+        <p class="text-white text-base lg:text-lg text-center"> Preencha o formulário e em seguida aguarde que em breve entraremos em contato.  </p>
       </section >
 
       <section className="flex flex-col items-center">

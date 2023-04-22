@@ -9,7 +9,7 @@ const Footer = () => {
 
     <footer class="bg-white mt-5 border border-black w-full">
       <div class="mx-auto w-full max-w-screen-xl">
-        <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div class="grid grid-cols-1 justify-center text-center gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
             <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Contato</h2>
             <ul class="text-gray-500 font-medium">
@@ -42,8 +42,8 @@ const Footer = () => {
               <li class="mb-4">
                 <Link to={`https://wa.me/55${8000813312}?text=Adorei%20seu%20artigo`} href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</Link>
               </li>
-              <li class="mb-4">
-                <Link to='/form' class="block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Agendar demonstração</Link>
+              <li>
+                <Link to='/form' class=" block my-2 text-white bg-orange-500 rounded p-2 md:hover:bg-transparent md:hover:text-orange-500 hover:border-2 border-orange-500">Agendar demonstração</Link>
               </li>
               <li class="mb-4">
                 <a href="https://www.protrack365.com/mobile/" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
@@ -51,9 +51,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Aplicativo</h2>
-            <ul class="text-gray-500 font-medium">
+          <div className=' '>
+            <h2 class="mb-6 text-xl font-bold text-gray-900 uppercase "> Nossos aplicativos</h2>
+            <ul class="text-gray-500 font-medium flex flex-col items-center">
 
               <li class="flex flex-col mb-4">
                 <div className='mb-3'>
