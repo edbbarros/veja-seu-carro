@@ -42,7 +42,7 @@ const Navbar = () => {
             <li>
               <a href="#depoimentos" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500">Depoimentos</a>
             </li>
-            <li class="mb-4">
+            <li class="">
               <Link to={`https://wa.me/55${8000813312}?text=Adorei%20seu%20artigo`} href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</Link>
             </li>
             <li>
