@@ -35,17 +35,20 @@ const Home = () => {
 
   return (
     <>
-      <section className='bg-mobile bg-desktop flex flex-col items-center justify-start lg:items-start '>
-        <h1 class='text-white font-bold text-4xl lg:text-7xl mt-10  mb-10 mx-5 lg:my-20 lg:mx-20 lg:w-[38rem] animate-left-to-center'> Seu patrimônio protegido <span className='text-[#f2910e]'>24h</span> por dia!
-        </h1>
+      <section className=' flex flex-col justify-start bg-mobile bg-desktop lg:items-start'>
+        <div className='flex flex-col items-center'>
 
-        <a class="text-white bg-[#f2910e] font-medium rounded-lg text-2xl py-3 inline-flex justify-center w-3/4 lg:h-[4rem] lg:w-[33rem] text-center mx-20" href="https://bit.ly/WhatsappVSC">Eu quero</a>
-
-        <div className='flex items-center space-x-4 text-3xl my-10 '>
-          <i className="fab fa-whatsapp  bg-green-500 rounded-full text-white"></i>
-          <h1 className='text-white'>
-            0800 081 3312
+          <h1 class='text-white font-bold text-4xl lg:text-7xl mt-10  mb-10 mx-5 lg:my-20 lg:mx-20 lg:w-[38rem] animate-left-to-center'> Seu patrimônio protegido <span className='text-[#f2910e]'>24h</span> por dia!
           </h1>
+
+          <a class="text-white bg-[#f2910e] font-medium rounded-lg text-2xl py-3 inline-flex justify-center w-3/4 lg:h-[4rem] lg:w-[33rem] text-center mx-20" href="https://bit.ly/WhatsappVSC">Eu quero</a>
+
+          <div className='flex items-center justify-center space-x-4 text-3xl my-10'>
+            <i className="fab fa-whatsapp  text-green-500 "></i>
+            <h1 className='text-white'>
+              0800 081 3312
+            </h1>
+          </div>
         </div>
 
       </section >
