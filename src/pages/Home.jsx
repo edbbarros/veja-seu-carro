@@ -15,9 +15,15 @@ import person3 from '../assets/person3.jpg'
 import post1 from '../assets/post1.jpg'
 import post2 from '../assets/post2.jpg'
 import post3 from '../assets/post3.jpg'
+import post4 from '../assets/post4.jpg'
+import post5 from '../assets/post5.jpg'
+import post6 from '../assets/post6.jpg'
+
+
 import FloatMenu from '../components/FloatMenu';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Carrousel from '../components/Carrousel';
 
 
 const Home = () => {
@@ -58,15 +64,15 @@ const Home = () => {
           <div class=" p-4 bg-orange-500 rounded-lg md:p-8 ">
             <dl class="grid grid-cols-3 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4 ">
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-7xl font-extrabold contador contador-1"></dt>
+                <dt class="mb-2 text-7xl text-white font-extrabold contador contador-1"></dt>
                 <dd class="text-white ">de redução de combustível logo no primeiro mês de uso da nossa plataforma.</dd>
               </div>
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-7xl  font-extrabold contador contador-2 "></dt>
+                <dt class="mb-2 text-7xl text-white font-extrabold contador contador-2 "></dt>
                 <dd class="text-white ">de aumento na produtividade dos colaboradores da sua empresa.</dd>
               </div>
               <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-7xl font-extrabold contador contador-3"></dt>
+                <dt class="mb-2 text-7xl text-white font-extrabold contador contador-3"></dt>
                 <dd class="text-white ">de redução em quilômetros percorridos pela sua frota.</dd>
               </div>
             </dl>
@@ -92,7 +98,7 @@ const Home = () => {
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
           <img class="rounded-t-lg" src={img2} alt="" />
-          <div class="p-2">
+          <div class="p-3">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-orange-500 ">Tempo de viagem
             </h5>
             <p class="mb-3 font-normal text-gray-700 ">Saiba quanto tempo leva seu colaborador em cada trajeto e melhore a sua gestão de frotas.
@@ -362,25 +368,27 @@ const Home = () => {
               /vejaseucarrogps</h1>
           </a>
         </div>
+
+
       </div>
 
-      <section className='instagram-posts lg:grid lg:grid-cols-3 flex flex-col justify-items-center items-center mx-2 gap-5 lg:mx-5 my-5 py-24'>
+      {/* <section className='instagram-posts lg:grid lg:grid-cols-3 flex flex-col justify-items-center items-center mx-2 gap-5 lg:mx-5 my-5 py-24'>
 
 
 
         <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/CrKGUdQLkAL/">
+          <a href="https://www.instagram.com/p/CrV7okhrVwU/">
             <img src={post1} alt="" />
           </a>
 
         </div>
         <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/Cq-SA20uczp/">
+          <a href="https://www.instagram.com/p/CrakccdOxgS/">
             <img src={post2} alt="" />
           </a>
         </div>
         <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/CrORRcrrG3V/">
+          <a href="https://www.instagram.com/p/Cq3ygPYLdHh/">
             <img src={post3} alt="" />
           </a>
 
@@ -388,9 +396,13 @@ const Home = () => {
 
 
 
+      </section> */}
+
+      <section className=' my-10 lg:px-56'>
+        <Carrousel />
       </section>
 
-      <section id='depoimentos' className='my-10 flex flex-col items-center h-20 justify-center  bg-[#f2910e]'>
+      <section id='depoimentos' className='my-10 flex flex-col items-center h-20 justify-center bg-[#f2910e]'>
         <h1 className='font-bold text-white text-2xl lg:text-4xl '>Veja o que estão falando da gente</h1>
       </section>
 
@@ -398,8 +410,7 @@ const Home = () => {
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
-            <img className='w-full lg:mb-3
-            ' src={person1} alt="" />
+
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5">Eu nunca tive problemas com meu rastreador! O serviço que a Veja seu carro entrega, é sensacional! Parabéns ❤️
             </h5>
             <p class="text-sm font-semibold tracking-tight text-gray-900 ">Marilia Gonzaga</p>
@@ -418,7 +429,7 @@ const Home = () => {
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
-            <img className='w-full lg:mb-10' src={person2} alt="" />
+
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5 ">Empresa Top, rastreamento de veículos de confiança e de primeira qualidade. Satisfeita com o serviço.👏🏻👏🏻👏🏻
             </h5>
             <p class="text-sm font-semibold tracking-tight text-gray-900 ">Ana Queiroz</p>
@@ -437,7 +448,6 @@ const Home = () => {
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center ">
           <div class="px-5 pb-5 mt-5">
-            <img className='w-full lg:mb-10' src={person3} alt="" />
             <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-5 ">Empresa nota 1000,  atendimento excelente e prestação de serviço ótima! Recomendo de olhos fechados!
             </h5>
             <p class="text-sm font-semibold tracking-tight text-gray-900 ">Pedro Santos</p>

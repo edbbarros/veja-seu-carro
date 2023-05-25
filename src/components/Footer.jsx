@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link to='/form' class=" block my-2 text-white bg-orange-500 rounded p-2 md:hover:bg-transparent md:hover:text-orange-500 hover:border-2 border-orange-500">Agendar demonstração</Link>
               </li>
               <li class="mb-4">
-                <a href="https://www.protrack365.com/mobile/" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
+                <a href="https://www.protrack365.com/" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
 
         </div>
         <div class="px-4 py-6 bg-orange-500  md:flex md:items-center md:justify-between">
-          <span class="text-sm text-white sm:text-center">© 2023 <a href="https://www.instagram.com/agenciapumadi/">Agencia Pumadi</a> - Todos os direitos reservados.
+          <span class="text-sm text-white sm:text-center">© 2023 <a href="https://www.linkedin.com/in/edbbarros/">edbbarros.dev</a> - Todos os direitos reservados.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-900 ">
