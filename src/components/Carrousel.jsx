@@ -17,11 +17,12 @@ const Carrousel = () => {
   const settings = {
     className: "center,",
     centerMode: true,
+    dots: true,
     infinite: true,
     centerPadding: "0px",
     slidesToShow: 3,
-    speed: 300,
-    autoplaySpeed: 2000,
+    speed: 500,
+    autoplaySpeed: 3000,
     autoplay: true,
     responsive: [
       {
@@ -72,23 +73,35 @@ const Carrousel = () => {
     <div>
 
       <Slider {...settings}>
-        <div className=' px-0 lg:px-5'>
-          <img src={post1} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/CrV7okhrVwU/">
+            <img src={post1} alt="" />
+          </a>
         </div>
-        <div className=' px-0 lg:px-5'>
-          <img src={post2} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/CrakccdOxgS/">
+            <img src={post2} alt="" />
+          </a>
         </div>
-        <div className=' px-0 lg:px-5'>
-          <img src={post3} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/Cq3ygPYLdHh/">
+            <img src={post3} alt="" />
+          </a>
         </div>
-        <div className=' px-0 lg:px-5'>
-          <img src={post4} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/CrKGUdQLkAL/">
+            <img src={post4} alt="" />
+          </a>
         </div>
-        <div className=' px-0 lg:px-5'>
-          <img src={post5} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/CrszV6auR6x/">
+            <img src={post5} alt="" />
+          </a>
         </div>
-        <div className=' px-0 lg:px-5'>
-          <img src={post6} alt="" />
+        <div className=' px-2 lg:px-5'>
+          <a href="https://www.instagram.com/p/CrdikN7OkEe/">
+            <img src={post6} alt="" />
+          </a>
         </div>
       </Slider>
     </div>
