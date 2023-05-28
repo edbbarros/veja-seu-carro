@@ -28,8 +28,10 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase ">Home</h2>
             <ul class="text-gray-500 font-medium">
+              <li className='mb-4'>
+                <a href="#home" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Home </a>
+              </li>
               <li class="mb-4">
                 <a href="#vantagens" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Vantagens </a>
               </li>

@@ -41,7 +41,7 @@ const Home = () => {
 
   return (
     <>
-      <section className=' flex flex-col justify-start bg-mobile bg-desktop lg:items-start'>
+      <section id='home' className=' flex flex-col justify-start bg-mobile bg-desktop lg:items-start'>
         <div className='flex flex-col items-center'>
 
           <h1 class='text-white font-bold text-4xl lg:text-7xl mt-10  mb-10 mx-5 lg:my-20 lg:mx-20 lg:w-[38rem] animate-left-to-center'> Seu patrimônio protegido <span className='text-[#f2910e]'>24h</span> por dia!
