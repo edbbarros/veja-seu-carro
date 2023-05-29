@@ -1,9 +1,8 @@
 
-
 const Form = () => {
   return (
     <>
-      <section class="bg-[#112e49] flex flex-col items-center my-5 py-2 px-3">
+      <section id="#form" class="bg-[#112e49] flex flex-col items-center my-5 py-2 px-3">
         <h1 class="text-white text-[1.7rem] lg:text-7xl font-bold my-3"> Agende uma demonstração</h1>
         <p class="text-white text-base lg:text-lg text-center"> Preencha o formulário e em seguida aguarde que em breve entraremos em contato.  </p>
       </section >
@@ -44,7 +43,9 @@ const Form = () => {
           <button type="submit" class="text-white bg-orange-500 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center">Enviar</button>
 
         </form>
+
       </section >
+
     </>
 
   )

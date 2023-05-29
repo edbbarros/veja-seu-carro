@@ -43,13 +43,13 @@ const Navbar = () => {
               <a href="#depoimentos" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500">Depoimentos</a>
             </li>
             <li class="">
-              <Link to={`https://wa.me/55${8000813312}?text=Adorei%20seu%20artigo`} href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</Link>
+              <Link to={`https://api.whatsapp.com/send?phone=5508000813312&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento%20para%20os%20rastreadores!%20 `} target='_blank' href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 ">Contato</Link>
             </li>
             <li>
-              <Link to='/form' class=" block my-2 text-white bg-orange-500 rounded p-2 md:hover:bg-transparent md:hover:text-orange-500 hover:border-2 border-orange-500">Agendar demonstração</Link>
+              <a href='#form' class=" block my-2 text-white bg-orange-500 rounded p-2 md:hover:bg-transparent md:hover:text-orange-500 hover:border-2 border-orange-500">Agendar demonstração</a>
             </li>
             <li>
-              <a href="https://www.protrack365.com/" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
+              <a href="https://www.protrack365.com/" target="_blank" class=" block  p-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-500 hover:border-2 border-orange-500 ">Acessar Plataforma</a>
             </li>
           </ul>
         </div>

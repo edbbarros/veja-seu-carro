@@ -6,7 +6,6 @@ import img3 from '../assets/image3.jpg';
 import img4 from '../assets/image4.jpg';
 import img5 from '../assets/image5.jpg';
 import EletronicFence from '../assets/image6.jpg';
-import Form from '../components/Form';
 
 import person1 from '../assets/person1.jpg'
 import person2 from '../assets/person2.jpg'
@@ -81,9 +80,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section id='vantagens' className='flex flex-col text-center items-center my-10 mx-5'>
+      <section id="vantagens" class="flex flex-col text-center items-center my-10 mx-5">
         <h1 class="text-orange-500 font-bold text-2xl">Com o que podemos te ajudar hoje?</h1>
       </section>
+
 
       <section class="grid grid-cols-3 my-10 gap-5 justify-items-center text-center max-[480px]:flex max-[480px]:flex-col m-4">
         <div class=" max-w-sm bg-white border border-gray-200 rounded-lg shadow flex flex-col  ">
@@ -372,33 +372,7 @@ const Home = () => {
 
       </div>
 
-      {/* <section className='instagram-posts lg:grid lg:grid-cols-3 flex flex-col justify-items-center items-center mx-2 gap-5 lg:mx-5 my-5 py-24'>
-
-
-
-        <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/CrV7okhrVwU/">
-            <img src={post1} alt="" />
-          </a>
-
-        </div>
-        <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/CrakccdOxgS/">
-            <img src={post2} alt="" />
-          </a>
-        </div>
-        <div className='max-w-sm'>
-          <a href="https://www.instagram.com/p/Cq3ygPYLdHh/">
-            <img src={post3} alt="" />
-          </a>
-
-        </div>
-
-
-
-      </section> */}
-
-      <section className=' my-10 lg:px-56'>
+      <section className='my-10 lg:px-56'>
         <Carrousel />
       </section>
 
@@ -467,7 +441,50 @@ const Home = () => {
 
 
       <FloatMenu />
-      <Form />
+
+      <section class="bg-[#112e49] flex flex-col items-center my-5 py-2 px-3">
+        <h1 id="form" class="text-white text-[1.7rem] lg:text-7xl font-bold my-3"> Agende uma demonstração</h1>
+        <p class="text-white text-base lg:text-lg text-center"> Preencha o formulário e em seguida aguarde que em breve entraremos em contato.  </p>
+      </section >
+
+      <section className="flex flex-col items-center">
+
+        <form action="https://formsubmit.co/e7980870b71130c06da3db0ece53c7ee" method="POST" class="w-full max-w-2xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
+
+          <div class="mb-6">
+            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Nome Completo</label>
+            <input type="text" name="Nome" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Nome Completo" />
+          </div>
+
+          <div class="mb-6">
+            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
+            <input type="email" name="email" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5" placeholder="seu@email.com" />
+          </div>
+
+          <div className="mb-6">
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900">Telefone</label>
+            <input type="number" name="telefone" id="phone" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="DDD + Número" />
+          </div>
+
+          <div class="mb-6">
+            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Nome da empresa *</label>
+            <input type="text" name="empresa" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Nome da empresa" />
+          </div>
+
+          <div class="mb-6">
+            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Numero de veiculos *</label>
+            <input type="number" name="veiculos" id="default-input" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Numero de veiculos" />
+          </div>
+
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Como podemos lhe ajudar? *</label>
+          <textarea id="message" name="mesagem" rows="4" class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-orange-500 ">
+          </textarea>
+
+          <button type="submit" class="text-white bg-orange-500 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center">Enviar</button>
+
+        </form>
+
+      </section >
 
       <section className='my-5'>
         <div>
