@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-import post1 from "../assets/post1.jpg";
-import post2 from "../assets/post2.jpg";
-import post3 from "../assets/post3.jpg";
-import post4 from "../assets/post4.jpg";
-import post5 from "../assets/post5.jpg";
-import post6 from "../assets/post6.jpg";
+import post1 from "../assets/post1.webp";
+import post2 from "../assets/post2.webp";
+import post3 from "../assets/post3.webp";
+import post4 from "../assets/post4.webp";
+import post5 from "../assets/post5.webp";
+import post6 from "../assets/post6.webp";
 
 const Carrousel = () => {
   const settings = {

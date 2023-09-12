@@ -1,5 +1,5 @@
-import logoVsc from '../assets/Logo-Vsc.png'
-import playStore from '../assets/playstore.png'
+import logoVsc from '../assets/Logo-Vsc.webp'
+import playStore from '../assets/playstore.webp'
 import appstore from '../assets/AppStore.svg'
 
 import { Link } from "react-router-dom";

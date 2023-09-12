@@ -1,5 +1,5 @@
 .bg-desktop {
-  background-image: url("./assets/Background-Home.png");
+  background-image: url("./assets/Background-Home.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 720px) {
   .bg-mobile {
-    background-image: url("./assets/Background-Mobile.png");
+    background-image: url("./assets/Background-Mobile.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }

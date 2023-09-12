@@ -1,22 +1,22 @@
 import { useState } from 'react';
 import '../App.css';
-import img1 from '../assets/image1.jpg';
-import img2 from '../assets/image2.jpg';
-import img3 from '../assets/image3.jpg';
-import img4 from '../assets/image4.jpg';
-import img5 from '../assets/image5.jpg';
-import EletronicFence from '../assets/image6.jpg';
+import img1 from '../assets/image1.webp';
+import img2 from '../assets/image2.webp';
+import img3 from '../assets/image3.webp';
+import img4 from '../assets/image4.webp';
+import img5 from '../assets/image5.webp';
+import EletronicFence from '../assets/image6.webp';
 
-import person1 from '../assets/person1.jpg'
-import person2 from '../assets/person2.jpg'
-import person3 from '../assets/person3.jpg'
+import person1 from '../assets/person1.webp'
+import person2 from '../assets/person2.webp'
+import person3 from '../assets/person3.webp'
 
-import post1 from '../assets/post1.jpg'
-import post2 from '../assets/post2.jpg'
-import post3 from '../assets/post3.jpg'
-import post4 from '../assets/post4.jpg'
-import post5 from '../assets/post5.jpg'
-import post6 from '../assets/post6.jpg'
+import post1 from '../assets/post1.webp'
+import post2 from '../assets/post2.webp'
+import post3 from '../assets/post3.webp'
+import post4 from '../assets/post4.webp'
+import post5 from '../assets/post5.webp'
+import post6 from '../assets/post6.webp'
 
 
 import FloatMenu from '../components/FloatMenu';
